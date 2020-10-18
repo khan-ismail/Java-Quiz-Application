@@ -1,0 +1,40 @@
+-----------------------------------------------------------------------------
+--------------         Servlet Quiz Application        ----------------------
+-----------------------------------------------------------------------------
+1) This is the simple Quiz Application which contain number of Question in MCQ formate.
+2) This application having connection with (MySQL) Database.
+3) Username and password of the database is "root" and "root" respectively.
+4) The Database name is (test) which contains 2 tables.
+5) First Table is Question table namely (quiz) which is the main table that contain Question.
+6) And another table is New User Register table having name (quizuerregister).
+
+
+-----------------------------------------------------------------------------
+--------------   (1)      *Quiz* table structure         --------------------
+-----------------------------------------------------------------------------
+
+------------+---------------+-----------+-----------+-----------+-------------------+
+Field		|	Type		|	Null	|	Key		|	Default	|	Extra			|
+------------+---------------+-----------+-----------+-----------+-------------------+
+id			|	int(11)		|	No		|	PRI		|	Null	|	auto_increment	|
+question	|	varchar(50)	|	No		|			|	Null	|					|
+option1		|	varchar(50)	|	No		|			|	Null	|					|
+option2		|	varchar(50)	|	No		|			|	Null	|					|
+option3		|	varchar(50)	|	No		|			|	Null	|					|
+option4		|	varchar(50)	|	No		|			|	Null	|					|
+answer 		|	varchar(50)	|	NO		|			|	Null	|					|
+------------+---------------+-----------+-----------+-----------+-------------------+
+
+
+-----------------------------------------------------------------------------
+--------------   (2)      *quizuerregister* table structure    --------------
+-----------------------------------------------------------------------------
+------------+---------------+-----------+-----------+-----------+-------------------+
+Field		|	Type		|	Null	|	Key		|	Default	|	Extra			|
+------------+---------------+-----------+-----------+-----------+-------------------+
+registerid	|	int(11)		|	No		|	PRI		|	Null	|	auto_increment	|
+firstName	|	varchar(50)	|	No		|			|	Null	|					|
+lastName	|	varchar(50)	|	No		|			|	Null	|					|
+UserName	|	varchar(50)	|	No		|			|	Null	|					|
+password	|	varchar(50)	|	No		|			|	Null	|					|
+------------+---------------+-----------+-----------+-----------+-------------------+

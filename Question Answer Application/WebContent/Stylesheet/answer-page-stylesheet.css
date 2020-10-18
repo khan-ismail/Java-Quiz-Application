@@ -1,0 +1,81 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#heading{
+	width: 100%;
+	height: 110px;
+	line-height: 60px;
+	color: #fff;
+	text-shadow: 0px 0px 5px #000;
+	padding-left: 30px;
+	font-family: arial;
+	background-color: rgb(7, 112, 116);
+}
+
+.total-score{
+	position: absolute;
+	top: 10px;
+	left: 1050px;
+	text-align: center;
+	font-size: 25px;
+	line-height: 50px;
+	color: #fff;
+	font-weight: bold;
+	text-shadow: 0px 0px 3px #000;
+	font-family: calibri;
+	width: 250px;
+	height: 50px;
+}
+
+.back-link{
+	position: absolute;
+	top: 90px;
+	border-radius: 5px;
+	background-color: green;
+	box-shadow: 0px 0px 4px #000;
+	margin-left: 20px; 
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.answer-table{
+	position: relative;
+	top: 1px;
+	border: 1px solid #ddd;
+	box-shadow: 0px 0px 7px #bdbdbd;
+	padding: 5px 10px;
+	font-family: arial;
+	border-collapse: collapse;
+	width: 960px;
+	margin: auto;
+}
+
+.answer-table th{
+	padding: 15px;
+	background-color: #262626;
+	color: #fff;
+}
+
+.answer-is-correct{
+	color: green;
+}
+
+.answer-is-wrong{
+	color: red;
+}
+
+.correct-answer{
+	font-size: 19px;
+	color: green;
+	text-shadow: 0px 0px 1px #bdbdbd;
+	font-family: Georgia;
+}
+
+.incorrect-answer{
+	font-size: 19px;
+	color: red;
+	text-shadow: 0px 0px 1px #bdbdbd;
+	font-family: Georgia;
+}
